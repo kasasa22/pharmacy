@@ -43,7 +43,7 @@
                   </div>
                 </div>
                 
-                <p><a href="#" class="btn btn-primary px-5 py-3">CASHIER</a></p>
+                <p><a href="{{ route('cashierLogin') }}" class="btn btn-primary px-5 py-3">CASHIER</a></p>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@
                     <p>At Lifetime Pharmacy, we empower our team to provide exceptional customer service. Join us in making a positive impact in the lives of our customers</p>
                   </div>
                 </div>
-                <p><a href="#" class="btn btn-primary px-5 py-3">ADMIN</a></p>
+                <p><a href="{{ route('adminLogin') }}" class="btn btn-primary px-5 py-3">ADMIN</a></p>
               </div>
             </div>
           </div>

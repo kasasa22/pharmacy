@@ -17,6 +17,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index', function () {
-    return view('index');
+Route::get('/admin', function () {
+    return view('adminLogin');
 });
+Route::get('/adminLogin', function () {
+    return view('adminLogin');
+})->name('adminLogin');
+Route::get('/adminReg', function () {
+    return view('adminReg');
+})->name('adminReg');
+Route::get('/cashierLogin', function () {
+    return view('cashierLogin');
+})->name('cashierLogin');
+Route::get('/cashierReg', function () {
+    return view('cashierReg');
+})->name('cashierReg');
