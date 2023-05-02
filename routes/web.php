@@ -44,3 +44,45 @@ Route::get('/sales', function () {
 Route::get('/profile', function () {
     return view('profile');
 })->name('profile');
+Route::get('/admin', function () {
+    return view('admin');
+})->name('admin');
+
+Route::get('/admin', function () {
+    return view('admin');
+})->name('admin');
+
+Route::get('/category', function () {
+    return view('category');
+})->name('category');
+Route::get('/supplier', function () {
+    return view('supplier');
+})->name('supplier');
+Route::get('/medicine', function () {
+    return view('medicine');
+})->name('medicine');
+Route::get('/sale', function () {
+    return view('sale');
+})->name('sale');
+Route::get('/company', function () {
+    return view('company');
+})->name('company');
+Route::get('/report', function () {
+    return view('report');
+})->name('report');
+Route::get('/cashiers', function () {
+    return view('cashiers');
+})->name('cashiers');
+Route::get('/addCashier', function () {
+    return view('addCashier');
+})->name('addCashier');
+Route::get('/addCategory', function () {
+    return view('addCategory');
+})->name('addCategory');
+Route::get('/addSupplier', function () {
+    return view('addSupplier');
+})->name('addSupplier');
+Route::get('/addmedicine', function () {
+    return view('addmedicine');
+})->name('addmedicine');
+
