@@ -32,3 +32,15 @@ Route::get('/cashierLogin', function () {
 Route::get('/cashierReg', function () {
     return view('cashierReg');
 })->name('cashierReg');
+Route::get('/cashier', function () {
+    return view('cashier');
+})->name('cashier');
+Route::get('/daily', function () {
+    return view('daily');
+})->name('daily');
+Route::get('/sales', function () {
+    return view('sales');
+})->name('sales');
+Route::get('/profile', function () {
+    return view('profile');
+})->name('profile');
